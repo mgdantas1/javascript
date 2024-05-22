@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+    <link rel="stylesheet" href="estilização.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <label for="nascimento">Ano de nascimento:</label>
+                <input type="number" name="nascimento" id="nascimento">
+            </div>
+            
+            <div id="sexo">
+                Sexo:
+                <input type="radio"  value="feminino" id="feminino" name="sexo" checked>
+                <label for="feminino">Feminino</label>
+                <input type="radio" value="masculino" id="masculino" name="sexo">
+                <label for="masculino">Masculino</label>
+            </div>
+
+            <div>
+                <input type="button" value="Enviar" onclick="clicar()">
+            </div>
+
+            <div id="txt">
+                Insira as informações acima...
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Maria das Graças</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

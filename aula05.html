@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: rgb(107, 21, 146);
+            color: rgb(219, 231, 52);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Mais um dia</p>
+    <div id="msg">clique em mim</div>
+
+    <script>
+        // var corpo = document.body
+        // corpo.style.background = 'black'
+        
+        // document.write(window.document.getElementsByTagName('p')[1].innerText)
+        // document.getElementsByTagName('p')[0].style.color = 'white'
+        // var p1 = window.document.getElementsByTagName('p')[1]
+        // window.document.write('Aqui está escrito: ' + p1.innerText)
+        // p1.style.color = 'white'
+
+        // var div = document.getElementById('msg')
+        // div.innerText = 'Nova mensagem'
+        // div.style.color = 'white'
+        // document.getElementById('msg').innerText = 'Nova mensagem'
+        // document.getElementById('msg').style.color = 'white'
+
+        // var div = document.getElementsByName('msg')[0]
+        // div.innerText = 'Olá, mundo!'
+
+        // var div = document.getElementsByClassName('msg')[0]
+        // div.innerHTML = 'Olá, mundo!'
+
+        var d = document.querySelector('div#msg')
+        d.style.color = 'white'
+    </script>
+
+</body>
+</html>
